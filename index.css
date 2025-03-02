@@ -1,0 +1,81 @@
+/* <!-- YA ALLAH YA MUXAMMED YA ALI -->
+ <!-- LA ILAHƏ İLLƏ ƏNTƏ SUPANƏKƏ İNNİ KUNTİMİNƏ ZALİMİN --> */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightblue;
+}
+.abb {
+  width: 40%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  margin: 120px auto;
+  padding: 10px 0;
+}
+.abb input {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  border-radius: 50px;
+  padding-left: 20px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.abb h1 {
+  position: absolute;
+  top: 70px;
+  font-size: 50px;
+  color: teal;
+  font-family: "Courier New", Courier, monospace;
+}
+.abb button {
+  padding: 13px 45px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 1px solid red;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  right: 350px;
+}
+#evry {
+  width: 40%;
+  height: 500px;
+  background-color: lightgreen;
+  margin: auto;
+}
+.product {
+  font-size: 35px;
+  padding-left: 15px;
+  padding-top: 10px;
+  color: black;
+}
+.productdelet {
+  width: 30px;
+  height: 40px;
+  display: inline-block;
+  color: black;
+  margin-left: 40px;
+}
+.productdelet:hover {
+  color: red;
+}
+.mission {
+  width: 30px;
+  height: 40px;
+  display: inline-block;
+  margin-left: 30px;
+}
+.mission:hover {
+  color: gold;
+}
+.okey {
+  text-decoration: line-through;
+}
